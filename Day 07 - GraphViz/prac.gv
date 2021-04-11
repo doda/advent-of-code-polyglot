@@ -1,0 +1,19 @@
+digraph{
+    pbga[label="66"]
+    xhth[label="57"]
+    ebii[label="61"]
+    havc[label="66"]
+    ktlj[label="57"]
+    fwft[label="72"]
+    fwft -> ktlj[label="72"], cntj[label="72"], xhth[label="72"]
+    qoyq[label="66"]
+    padx[label="45"]
+    padx -> pbga, havc, qoyq
+    tknk[label="41"]
+    tknk -> ugml, padx, fwft
+    jptl[label="61"]
+    ugml[label="68"]
+    ugml -> gyxo, ebii, jptl
+    gyxo[label="61"]
+    cntj[label="57"]
+}
