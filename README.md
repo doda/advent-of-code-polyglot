@@ -6,14 +6,14 @@ You can find problem descriptions for all days here: https://adventofcode.com/20
 
 A few notes on Days that stood out:
 
-[Day 01 - Excel](https://github.com/dodafin/advent-of-code-2017/tree/master/Day%2001%20-%20Excel "Day 01 - Excel"):
+[Day 01 - Excel](https://github.com/doda/advent-of-code-polyglot/tree/master/Day%2001%20-%20Excel "Day 01 - Excel"):
 
 I got the idea for using Excel from Reddit (like I did with a few of the language choices):
 
 ![Selection_231.png](https://images.squarespace-cdn.com/content/v1/5653cecbe4b026d39f769e62/1618263732626-1C5AG60ZJE0G3I4T03HM/Selection_231.png)
 
 
-[Day 03 - Google Chrome](https://github.com/dodafin/advent-of-code-2017/tree/master/Day%2003%20-%20Google%20Chrome "Day 03 - Google Chrome")
+[Day 03 - Google Chrome](https://github.com/doda/advent-of-code-polyglot/tree/master/Day%2003%20-%20Google%20Chrome "Day 03 - Google Chrome")
 
 The interesting thing about this challenge was that I was solve it entirely without writing code:
 
@@ -45,11 +45,11 @@ I simply googled the input sequence "1, 1, 2, 4, 5, 10, 11, 23, 25, 26"
 https://www.google.com/search?q=%221%2C+1%2C+2%2C+4%2C+5%2C+10%2C+11%2C+23%2C+25%2C+26%22
 since I had a feeling that this integer sequence would have to be online somewhere :)
 
-[Day 04 - VisualBasic .NET](https://github.com/dodafin/advent-of-code-2017/tree/master/Day%2004%20-%20VisualBasic%20.NET "Day 04 - VisualBasic .NET")
+[Day 04 - VisualBasic .NET](https://github.com/doda/advent-of-code-polyglot/tree/master/Day%2004%20-%20VisualBasic%20.NET "Day 04 - VisualBasic .NET")
 
 Learning VisualBasic in the year 2021 is a privilege :D The language actually seemed reasonable compared to some of the other ones I used.
 ```
-[Day 11 - Bash](https://github.com/dodafin/advent-of-code-2017/tree/master/Day%2011%20-%20Bash "Day 11 - Bash")
+[Day 11 - Bash](https://github.com/doda/advent-of-code-polyglot/tree/master/Day%2011%20-%20Bash "Day 11 - Bash")
 
 ![Selection_230.png](https://images.squarespace-cdn.com/content/v1/5653cecbe4b026d39f769e62/1618263504856-JMFW1MVL45VMLOI0CC3G/Selection_230.png)
 
@@ -78,7 +78,7 @@ echo Part 2: $highest
 ```
 This program walks through a series of instructions on a hexagonal grid (north, east, south-east etc.) and keeps track of how far away from it’s origin point it is maximally during its trip and how far away it winds up. Praise be that in Bash you’re allowed to increment uninitialized values.
 
-[Day 13 - SQL](https://github.com/dodafin/advent-of-code-2017/tree/master/Day%2013%20-%20SQL "Day 13 - SQL")
+[Day 13 - SQL](https://github.com/doda/advent-of-code-polyglot/tree/master/Day%2013%20-%20SQL "Day 13 - SQL")
 
 Another very fun day as I was able to solve purely with PostgreSQL by inserting the input data into a table and then running 2 very short queries on it:
 
@@ -104,7 +104,7 @@ SELECT i from (
 
 I spent quite a bit of time stuck on that second part with a bug thanks to Postgres’ special NULL handling. -\_-
 
-[Day 14 - Perl](https://github.com/dodafin/advent-of-code-2017/tree/master/Day%2014%20-%20Perl "Day 14 - Perl")
+[Day 14 - Perl](https://github.com/doda/advent-of-code-polyglot/tree/master/Day%2014%20-%20Perl "Day 14 - Perl")
 
 I can understand my brother’s distaste for Perl a lot better after solving Day 14:
 
@@ -117,14 +117,14 @@ I can understand my brother’s distaste for Perl a lot better after solving Day
 
 Though I was fine after I got around these. I can see why people would like the ability to be extremely terse in Perl though (Eric Wastl, the creator of AoC apparently writes most of his code in Perl)
 
-[Day 18 - Rust](https://github.com/dodafin/advent-of-code-2017/tree/master/Day%2018%20-%20Rust "Day 18 - Rust")
+[Day 18 - Rust](https://github.com/doda/advent-of-code-polyglot/tree/master/Day%2018%20-%20Rust "Day 18 - Rust")
 
 It was fun to get to re-use Rust here after I spent some time learning it in 2020. I’m still an abject beginner in in Rust but the Part 2 reveal of this problem was very cool: Run the part 1 solution in parallel until you reach a deadlock. This was very easy to accomplish with Rust’s concurrency primitives :)
 
-[Day 23 - PHP](https://github.com/dodafin/advent-of-code-2017/tree/master/Day%2023%20-%20PHP "Day 23 - PHP")  
+[Day 23 - PHP](https://github.com/doda/advent-of-code-polyglot/tree/master/Day%2023%20-%20PHP "Day 23 - PHP")  
 For as much as people decry PHP I actually found it to be OK for Day 23, however most of the challenge in that day was reverse engineering some assembly — not much functionality was needed from the language bar a hash map, a while, and some if statements…
 
-[Day 24 - Python](https://github.com/dodafin/advent-of-code-2017/tree/master/Day%2024%20-%20Python "Day 24 - Python")
+[Day 24 - Python](https://github.com/doda/advent-of-code-polyglot/tree/master/Day%2024%20-%20Python "Day 24 - Python")
 
 I saved my best language for last only to find that the last problem was a very simple DFS with backtracking… I enjoyed my hack for part 2 (by adding 1000000 on every step to push the longest solution to the top while still being able to modulo out the strength of it).
 
