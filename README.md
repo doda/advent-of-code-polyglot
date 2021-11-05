@@ -1,3 +1,5 @@
+![](/images/logo.jpg)
+
 Inspired by others who had done this (and initially thinking it’d be close to impossible) I recently completed the [Advent of Code](https://adventofcode.com/2017) series of programming challenges for the year 2017 using 25 different languages.
 
 I had done [2018](https://adventofcode.com/2018) in Rust and [2020](https://adventofcode.com/2020) in Go, each to better learn the individual languages, but this time around set myself the artificial restriction that I’d have to use a different programming language or tool for every day of the challenge.
@@ -10,7 +12,7 @@ A few notes on Days that stood out:
 
 I got the idea for using Excel from Reddit (like I did with a few of the language choices):
 
-![Selection_231.png](https://images.squarespace-cdn.com/content/v1/5653cecbe4b026d39f769e62/1618263732626-1C5AG60ZJE0G3I4T03HM/Selection_231.png)
+![Selection_231.png](/images/Selection_231.png)
 
 
 [Day 03 - Google Chrome](https://github.com/doda/advent-of-code-polyglot/tree/master/Day%2003%20-%20Google%20Chrome "Day 03 - Google Chrome")
@@ -38,20 +40,21 @@ and modulo by the bigger square size to take off the "full rows" that we're havi
 Or via Google Chrome :)
 https://www.google.com/search?q=%28%28289326-%28537%5E2%29%2B1%29%25539%29
 
-
-Fort part 2:
+For part 2:
 
 I simply googled the input sequence "1, 1, 2, 4, 5, 10, 11, 23, 25, 26"
 https://www.google.com/search?q=%221%2C+1%2C+2%2C+4%2C+5%2C+10%2C+11%2C+23%2C+25%2C+26%22
 since I had a feeling that this integer sequence would have to be online somewhere :)
-
+```
 [Day 04 - VisualBasic .NET](https://github.com/doda/advent-of-code-polyglot/tree/master/Day%2004%20-%20VisualBasic%20.NET "Day 04 - VisualBasic .NET")
 
-Learning VisualBasic in the year 2021 is a privilege :D The language actually seemed reasonable compared to some of the other ones I used.
-```
+Learning VisualBasic in the year 2021 is a privilege :D
+
+The language actually seemed reasonable compared to some of the other ones I used.
+
 [Day 11 - Bash](https://github.com/doda/advent-of-code-polyglot/tree/master/Day%2011%20-%20Bash "Day 11 - Bash")
 
-![Selection_230.png](https://images.squarespace-cdn.com/content/v1/5653cecbe4b026d39f769e62/1618263504856-JMFW1MVL45VMLOI0CC3G/Selection_230.png)
+![Selection_230.png](/images/Selection_230.png)
 
 This is probably the one I’m most proud of: It shows how an at first seemingly difficult problem melts away when you’re working with the right abstraction, in this case a [Cube Coordinate system](https://www.redblobgames.com/grids/hexagons/#coordinates-cube). I was worried about using Bash but I actually managed to golf a neat little solution that’s small enough to include here
 
