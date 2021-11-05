@@ -136,4 +136,6 @@ The more I do coding challenges like this the more I catch myself writing slight
 Closing thoughts:
 -----------------
 
-All in all a very fun challenge. At times it got frustrating (having to google how to parse strings in the umpteenth language), and a few times I had to back out of trying to use a language (such as FORTRAN or k3, that were just too cumbersome to use). Despite the problems being harder later into the challenge (I would say the first 10 Days are generally trivial problems) I found them easier to complete as I tried to use obscure languages first, and languages that I’m more familiar with later. Give a man a list of strings, a number parser and a hash table and life becomes much easier :)
+All in all a very fun challenge. At times it got frustrating (having to google how to parse strings in the umpteenth language), and a few times I had to back out of trying to use a language (such as FORTRAN or k3, that were just too cumbersome to use). 
+
+Despite the problems being harder later into the challenge (I would say the first 10 Days are generally trivial problems) I found them easier to complete as I tried to use obscure languages first, and languages that I’m more familiar with later. Give a man a list of strings, a number parser and a hash table and life becomes much easier :)
